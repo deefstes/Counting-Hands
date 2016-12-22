@@ -11,10 +11,10 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 6)
+    (start_pass_no 1)
     (layer_rule B.Cu
       (active on)
-      (preferred_direction horizontal)
+      (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
       (against_preferred_direction_trace_costs 2.1)
     )
@@ -60,10 +60,10 @@
     )
   )
   (class "kicad_default"
-    "Net-(C1-Pad1)" "Net-(P1-Pad3)" "Net-(P1-Pad4)" "Net-(P1-Pad5)" "Net-(P1-Pad6)" "Net-(P2-Pad5)" "Net-(P3-Pad1)" "Net-(P5-Pad1)"
-    "Net-(P5-Pad2)" "Net-(P5-Pad3)" "Net-(P5-Pad4)" "Net-(P5-Pad5)" "Net-(P5-Pad6)" "Net-(P5-Pad7)" "Net-(P5-Pad8)" "Net-(R1-Pad2)"
-    "Net-(R2-Pad2)" "Net-(R3-Pad2)" "Net-(R4-Pad1)" "Net-(R5-Pad1)" "Net-(R6-Pad1)" "Net-(R7-Pad1)" "Net-(R8-Pad1)" "Net-(JP1-Pad1)"
-    "Net-(JP1-Pad2)" "Net-(JP2-Pad1)" "Net-(JP2-Pad2)" "Net-(JP3-Pad1)" "Net-(JP3-Pad2)" "Net-(JP4-Pad2)" "Net-(JP4-Pad1)"
+    "Net-(P1-Pad3)" "Net-(P1-Pad4)" "Net-(P1-Pad5)" "Net-(P1-Pad6)" "Net-(P1-Pad7)" "Net-(P1-Pad8)" "Net-(P2-Pad1)" "Net-(P10-Pad3)"
+    "Net-(P11-Pad3)" "Net-(P12-Pad3)" "Net-(P2-Pad5)" "Net-(P2-Pad6)" "Net-(P3-Pad1)" "Net-(P3-Pad2)" "Net-(P3-Pad3)" "Net-(P5-Pad1)"
+    "Net-(P5-Pad2)" "Net-(P5-Pad3)" "Net-(P5-Pad4)" "Net-(P5-Pad5)" "Net-(P5-Pad6)" "Net-(P5-Pad7)" "Net-(P5-Pad8)" "Net-(P5-Pad9)"
+    "Net-(P5-Pad10)" "Net-(P5-Pad11)" "Net-(P5-Pad12)" "Net-(R1-Pad1)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -74,7 +74,7 @@
     )
   )
   (class Power
-    GND VCC "Net-(JP5-Pad2)"
+    VCC /Vin /GND
     (clearance_class Power)
     (via_rule Power)
     (rule

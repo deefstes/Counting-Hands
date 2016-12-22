@@ -1,0 +1,23 @@
+Driving a 4 digit 7 segment display with two 595 shift registers:
+https://www.youtube.com/watch?v=ZGzbAd-Aixc
+
+Driving a 4 digit 7 segment display with MAX7219 chip:
+https://www.youtube.com/watch?v=tFDiMw5QKZQ
+
+Controlling input buttons with 595 shift register:
+https://www.youtube.com/watch?v=nXl4fb_LbcI
+https://www.youtube.com/watch?v=1Vb2BpxPnjU
+
+Controlling multiple RGB LEDs with a TLC5940:
+http://tronixstuff.com/2013/10/21/tutorial-arduino-tlc5940-led-driver-ic/
+https://www.youtube.com/watch?v=FehBLNHMlfo
+
+Controlling TM1637 4 digit clock display:
+https://github.com/chamie/TM1637
+
+Powering servos:
+http://electronics.stackexchange.com/questions/246642/power-supply-circuit-for-powering-sg90-servo-how-to-handle-high-current-require
+
+Powering Arduino:
+http://www.open-electronics.org/the-power-of-arduino-this-unknown/
+http://electronics.stackexchange.com/questions/67092/how-much-current-can-i-draw-from-the-arduinos-pins
