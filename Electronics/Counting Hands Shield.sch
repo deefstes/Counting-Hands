@@ -155,8 +155,6 @@ F 3 "" H 3350 5400 50  0000 C CNN
 	1    3350 5400
 	0    1    1    0   
 $EndComp
-NoConn ~ 3050 2600
-NoConn ~ 3050 2700
 NoConn ~ 3050 2800
 NoConn ~ 4500 2300
 NoConn ~ 4500 2400
@@ -193,19 +191,18 @@ $EndComp
 $Comp
 L DIP_Switch_2 SW2
 U 1 1 57E00F78
-P 5850 1550
-F 0 "SW2" H 5775 1400 60  0000 C CNN
-F 1 "Default Interval" H 5850 1700 60  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_DIP_x2_Slide" H 5850 1400 60  0001 C CNN
-F 3 "" H 5850 1400 60  0001 C CNN
-	1    5850 1550
-	1    0    0    -1  
+P 3750 1650
+F 0 "SW2" H 3675 1500 60  0000 C CNN
+F 1 "Default Interval" H 3750 1800 60  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_DIP_x2_Slide" H 3750 1500 60  0001 C CNN
+F 3 "" H 3750 1500 60  0001 C CNN
+	1    3750 1650
+	-1   0    0    -1  
 $EndComp
 Connection ~ 5150 4500
 Connection ~ 5550 4500
 Connection ~ 5950 4500
 Connection ~ 6350 4500
-Connection ~ 6750 4500
 Connection ~ 5250 4400
 Connection ~ 5650 4400
 Connection ~ 6050 4400
@@ -246,7 +243,7 @@ Connection ~ 4750 4400
 Connection ~ 4650 4500
 Connection ~ 3450 4500
 Wire Wire Line
-	2850 1900 2850 4400
+	2850 1600 2850 4400
 Connection ~ 3250 4400
 Wire Wire Line
 	2750 4500 2750 3100
@@ -292,10 +289,7 @@ Wire Wire Line
 	3050 3100 3050 3200
 Wire Wire Line
 	6550 3850 6550 5200
-Wire Wire Line
-	8000 1900 2850 1900
 Connection ~ 2850 3300
-Connection ~ 6600 1900
 Wire Wire Line
 	4100 5200 4100 4500
 Connection ~ 4100 4500
@@ -327,22 +321,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 4800 3700 5200
 Wire Wire Line
-	4500 3700 5250 3700
-Wire Wire Line
-	5250 3700 5250 1600
-Wire Wire Line
-	5250 1600 5500 1600
-Wire Wire Line
-	5500 1500 5150 1500
-Wire Wire Line
-	5150 1500 5150 3000
-Wire Wire Line
 	5150 3000 4500 3000
-Wire Wire Line
-	6200 1600 6600 1600
-Wire Wire Line
-	6200 1500 6600 1500
-Connection ~ 6600 1600
 Wire Wire Line
 	6150 3750 6150 5200
 Wire Wire Line
@@ -387,27 +366,49 @@ Text Label 1700 3000 0    60   ~ 0
 Vin
 Text Label 2850 3300 0    60   ~ 0
 5V
-Wire Wire Line
-	6600 1500 6600 1900
-Wire Wire Line
-	2750 4500 8100 4500
 $Comp
-L CONN_01X04 P?
+L CONN_01X04 P5
 U 1 1 57EFA040
-P 8600 2450
-F 0 "P?" H 8600 2700 50  0000 C CNN
-F 1 "CONN_01X04" V 8700 2450 50  0000 C CNN
-F 2 "" H 8600 2450 50  0000 C CNN
-F 3 "" H 8600 2450 50  0000 C CNN
-	1    8600 2450
-	1    0    0    -1  
+P 1800 2550
+F 0 "P5" H 1800 2800 50  0000 C CNN
+F 1 "4x7 Segment Display" V 1900 2550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 1800 2550 50  0001 C CNN
+F 3 "" H 1800 2550 50  0000 C CNN
+	1    1800 2550
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 2400 8400 2400
+	4500 3200 5250 3200
 Wire Wire Line
-	8000 1900 8000 2400
+	5250 3200 5250 1600
+NoConn ~ 4500 3700
 Wire Wire Line
-	8400 2300 8100 2300
+	3050 2600 2000 2600
 Wire Wire Line
-	8100 2300 8100 4500
+	3050 2700 2000 2700
+Wire Wire Line
+	2350 2500 2000 2500
+Wire Wire Line
+	2000 2400 2250 2400
+Wire Wire Line
+	2250 2400 2250 3300
+Connection ~ 2250 3300
+Wire Wire Line
+	6750 4500 2750 4500
+Wire Wire Line
+	4100 1700 5150 1700
+Wire Wire Line
+	5150 1700 5150 3000
+Wire Wire Line
+	5250 1600 4100 1600
+Wire Wire Line
+	3400 1600 2850 1600
+Connection ~ 2850 1700
+Wire Wire Line
+	2350 2500 2350 2200
+Wire Wire Line
+	2350 2200 2850 2200
+Connection ~ 2850 2200
+Wire Wire Line
+	2850 1700 3400 1700
 $EndSCHEMATC

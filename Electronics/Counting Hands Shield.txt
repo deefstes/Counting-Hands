@@ -21,3 +21,9 @@ http://electronics.stackexchange.com/questions/246642/power-supply-circuit-for-p
 Powering Arduino:
 http://www.open-electronics.org/the-power-of-arduino-this-unknown/
 http://electronics.stackexchange.com/questions/67092/how-much-current-can-i-draw-from-the-arduinos-pins
+
+Using WTV020SD-16P audio module:
+http://www.buildcircuit.com/example-1-using-wtv020sd-16p-music-module-with-arduino/
+https://www.youtube.com/watch?v=n8pCJTTYzZo
+http://forum.arduino.cc/index.php/topic,117009.0.html
+http://www.re-innovation.co.uk/web12/index.php/en/blog-75/226-adding-sound
