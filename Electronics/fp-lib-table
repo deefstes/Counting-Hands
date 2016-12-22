@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Personal)(type KiCad)(uri "C:\\Users\\Dewald\\Documents\\KiCad\\Counting Hands\\Personal.pretty")(options "")(descr "Custom Footprints"))
+)

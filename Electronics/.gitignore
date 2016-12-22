@@ -1,0 +1,20 @@
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*~
+_autosave-*
+*.tmp
+
+# Autorouter files (exported from Pcbnew)
+.dsn
+
+# Spectra session files (exported from Freerouting)
+.ses
+
+# Exported BOM files
+*.xml
+*.csv
