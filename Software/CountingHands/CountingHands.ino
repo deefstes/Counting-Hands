@@ -2,7 +2,7 @@
 #include <TM1637Display.h> // https://github.com/avishorp/TM1637
 #include <ClickEncoder.h> // https://github.com/0xPIT/encoder/tree/arduino
 #include <TimerOne.h> // http://playground.arduino.cc/Code/Timer1
-#include <MsTimer2.h>
+#include <MsTimer2.h> // https://github.com/PaulStoffregen/MsTimer2
 #include <Servo.h>
 #include "CountingHands.h"
 
@@ -446,4 +446,3 @@ void setFingers(int value)
     case 5: setServos(fullHand, true, true, true, true, true); break;
   }
 }
-

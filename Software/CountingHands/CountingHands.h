@@ -1,11 +1,11 @@
 #define TEST_DELAY 500
-#define POTPIN A0
+//#define POTPIN A0
 #define DISP_CLK 15
 #define DISP_DIO 16
 #define DIR_PIN 4
 #define ROTARY_CLK A5
 #define ROTARY_DT A4
-#define ROTARY_SW A0
+#define ROTARY_SW A3
 #define DIP_SW1 7
 #define DIP_SW2 8
 
